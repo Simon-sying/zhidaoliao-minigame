@@ -1,0 +1,14 @@
+{
+  "name": "zhidaoliao-minigame",
+  "version": "1.0.0",
+  "private": true,
+  "description": "《知识到了》轻量知识答题微信小游戏（原生 Canvas，无引擎，CommonJS）",
+  "scripts": {
+    "validate": "node scripts/validate-bank.js",
+    "export-bank": "node scripts/export-bank.js",
+    "test": "node test/logic.test.js",
+    "entry": "node test/entry.test.js",
+    "smoke": "node test/render.smoke.js",
+    "check": "node scripts/node-check-all.js"
+  }
+}
